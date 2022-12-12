@@ -1,13 +1,13 @@
 import React from 'react'
 
-function Error({message}) {
+function Success({message}) {
     return (
         <div>
-            <div class="alert alert-danger" role="alert">
+            <div class="alert alert-success" role="alert">
                 {message}
             </div>
         </div>
     )
 }
 
-export default Error
+export default Success
